@@ -46,4 +46,17 @@ public class Lecture2 {
 		IntStream.iterate(0, operand -> operand + 1).filter(number -> number % 2 == 0).limit(20)
 				.forEach(System.out::println);
 	}
+	
+	@Test
+	
+	// Return a name from the list
+	public void testFetchNameFromList() throws Exception {
+		List<Person> people = MockData.getPeople();
+
+		people.forEach(name -> {
+			if (name.getFirstName().equals("Denney")) {
+				System.out.println(name);
+			};
+		});
+	}
 }
