@@ -2,11 +2,13 @@ package lectures;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.google.common.collect.ImmutableList;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
+
 import org.junit.Test;
+
+import com.google.common.collect.ImmutableList;
 
 public class Lecture4 {
 
